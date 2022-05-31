@@ -1,0 +1,1 @@
+ssh user@host 'tail  -n2 -fq logs/*/*/access.log' | ./logblinker.py
